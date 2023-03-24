@@ -1,0 +1,85 @@
+html,body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url(image/anime.jpg);
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url(image/image3.jpg);
+  min-height: 655px;
+}
+.pimg3 {
+  background-image: url(image/naruto.jpg);
+  min-height: 655px;
+}
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    letter-spacing: 8px;
+    font-size: 27px;
+}   
+.textbg{
+    background-color: black ;
+    color: white;
+    padding: 20px;
+
+}
+
+.light {
+    background-color: #282e34;
+    padding: 50px 80px;
+
+}
+.ptext2{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 27px;
+}
+.textbg2{
+  background-color: black;
+  color: beige;
+  padding: 20px;
+}
+.light2{
+  background-color: #282e34;
+  padding: 50px ;
+}
+.ptext3{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 8px;
+  font-size: 27px;
+}
+.textbg3{
+  background-color: black;
+  color: beige;
+  padding: 20px;
+}
+.light3{
+  background-color: #282e34;
+  padding: 50px ;
+}
